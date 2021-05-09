@@ -1,0 +1,562 @@
+@media screen and (max-width:1600px){
+    .home{
+        width: 70%;
+    }
+    .nav-bar{
+        width: 70%;
+    }
+    h1{
+        font-size: 3.5em;
+    }
+    .imagen{
+        width: 40%;
+        transform: translate(-40%,30%);
+    }
+
+
+    .imagen-skills {
+        width: 5.5em;
+        padding-right: 10px;
+    }
+    .imagen-skills-ps{
+        width: 7.4em;
+        padding-right: 10px;
+    }
+    
+    .imagen-skills-ai{
+        width: 6.1em;
+        padding-right: 10px;
+    }
+    
+}
+@media screen and (max-width:1392px){
+    .home{
+        width: 100%;
+    }
+    .nav-bar{
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+    }
+    h1{
+        font-size: 4em;
+    }
+
+    .nombre{
+        transform: translate(30%,20%);
+    }
+    .imagen{
+        
+        transform: translate(-200%,60%);
+    }
+
+    .imagen-conjunto{
+        width:200%;
+    }
+
+
+    .imagen-skills {
+        width: 5.5em;
+        padding-right: 10px;
+    }
+    .imagen-skills-ps{
+        width: 7.4em;
+        padding-right: 10px;
+    }
+    
+    .imagen-skills-ai{
+        width: 6.1em;
+        padding-right: 10px;
+    }
+    
+    .skill-container{
+        width: 100%;
+        min-height: 50vh;
+        margin: 0;
+        padding: 0;
+        display: block;
+        
+    }
+    .container-skills{
+        width: 100%;
+        background-color: #686868;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+
+    /* }portfolio---------------------------- */
+
+    .portfolio-container{
+        display: inline-block;
+        width: 100%;
+        min-height: 80vh;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .container-portfolio{
+        width: 40%;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    .portfolio{
+        color: #393838;
+        font-size: 4em;
+        transform: translate(76%);
+    
+     }
+    
+     .container-portfolio-images{
+         width: 100%;
+         height: 80vh;
+         display: flex  ;
+         margin: 0;
+         background-color:#393838 ;
+         justify-content: center;
+         text-align: center;
+         align-items: center;
+     }
+    
+     
+    /* }About---------------------------- */
+
+
+.about-container{
+    width: 100%;
+    min-height: 80vh;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.container-about{
+    width: 100%;
+    background-color: #686868;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+    .saludo{
+        padding-top: 30px;
+        font-size: 3em;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+
+    .texto-saludo{
+        margin: 100px 100px;
+        font-size: 1.5em;
+        font-weight: 300;
+        align-items:center ;
+        text-align: justify;
+        align-items:center;
+    }
+    
+     
+}
+@media screen and (max-width: 900px){
+
+    .home{
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .nav-bar{
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+    }
+    h1{
+        font-size: 3em;
+    }
+
+    .nombre{
+        transform: translate(30%,40%);
+    }
+    .imagen{
+        
+        transform: translate(-220%,80%);
+    }
+
+    .imagen-conjunto{
+        width:150%;
+    }
+
+    .front{
+        font-size: 2em;
+        padding: 50px;
+    }
+
+    .imagen-skills {
+        width: 5.5em;
+        padding-right: 10px;
+    }
+
+    .imagen-skills-ps{
+        width: 7.4em;
+        padding-right: 10px;
+    }
+    
+    .imagen-skills-ai{
+        width: 6.1em;
+        padding-right: 10px;
+    }
+    
+
+    .skill-container{
+        width: 100%;
+        min-height: 50vh;
+        margin: 0;
+        padding: 0;
+        display: block;
+        
+    }
+    .container-skills{
+        width: 100%;
+        background-color: #686868;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    
+    }
+        
+
+    .container-portfolio-images{
+        width: 100%;
+       
+        
+    }
+
+    .portfolio-container{
+        width: 100%;
+        min-height: 10vh;
+  
+    }
+}
+@media screen and (max-width: 890px){
+
+
+    .home{
+        width: 100%;
+        min-height: 90vh;
+    }
+
+    .imagen{
+        transform: translate(-215%,70%);
+    }
+
+    .imagen-conjunto{
+        width: 250%;
+    }
+
+    .navbar{
+        background-color:#393838 ;  
+        display: flex;
+
+    }
+    .toggle-button{
+        display: flex;
+        z-index: 10;
+    }
+
+    .nav-bar{
+        display: none;
+        z-index: -1;
+    }
+
+    .imagen-skills {
+        width: 4.5em;
+        padding-right: 10px;
+    }
+    .imagen-skills-ps{
+        width: 6.4em;
+        padding-right: 10px;
+    }
+    
+    .imagen-skills-ai{
+        width: 5.1em;
+        padding-right: 10px;
+    }
+    
+    .skill-container{
+        width: 100%;
+        min-height: 50vh;
+        margin: 0;
+        padding: 0;
+        display: block;
+        
+    }
+    .container-skills{
+        width: 100%;
+        background-color: #686868;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .texto-saludo{  
+        font-size: 1em;
+    }
+    .sub-texto{
+    
+        font-size: 1.3em;
+        font-weight: lighter;
+     }
+}
+@media screen and (max-width:700px){
+
+
+    .home{
+        width: 100%;
+        
+    }
+
+    .imagen{
+        transform: translate(-215%,100%);
+    }
+
+   
+
+    .h1{
+        font-size: 1em;
+    }
+    
+    .h3{
+        font-size: .5em;
+    }
+
+    .texto-saludo{
+        
+        padding: 20px;
+        margin:0;
+    }
+    .contacto{
+        font-size: 2.5em;
+        padding: 0;
+    }
+}
+@media screen and (max-width:600px){
+
+
+    .home{
+        width: 100%;
+        min-height: 80vh;
+    }
+
+
+    .nombre{
+        transform: translate(10%,70%);
+    }
+
+    .imagen{
+        transform: translate(-250%,140%);
+    }
+
+    .h1{
+     
+        font-size: .5em;
+    }
+    
+    .h3{
+        font-size: .5em;
+    }
+
+    .front{
+        font-size: 0.8em;
+    }
+
+
+    .container-contacto{
+        width: 60%;
+
+    }
+
+    .texto-saludo{
+        font-size: .8em;
+        padding: 20px;
+        margin:0;
+    }
+    .about-container{
+        width: 100%;
+        min-height: 50%;
+        justify-content: center;
+    }
+
+    .contacto{
+        font-size: 2.5em;
+        padding: 0;
+    }
+
+    .imagen-skills{
+        width: 4em;
+        padding-right: 20px;
+    
+        }
+    
+        .imagen-skills-ps{
+            width: 5em;
+            padding-right: 20px;
+        }
+        .imagen-skills-ai{
+            width: 4.25em;
+            padding-right: 20px;
+        }
+}
+
+@media screen and (max-width:500px){
+
+    .imagen-conjunto{
+
+        transform: translate(-250%,140%);
+        padding-top: 0px;
+    }
+
+
+    h1{
+        padding-top: 50px;
+        font-size: 2em;
+    }
+
+    h3{
+        font-size: 1em;
+    }
+    .front{
+        font-weight: bold;
+        font-size: .5em;
+        padding: 20px;
+     }
+
+       .front-ul{
+           padding-left: 0;
+       }
+
+        .skills{
+            font-size: 2.5em;
+        }
+
+        .portfolio{
+            font-size: 2.5em;
+        }
+
+        .contacto{
+            font-size: 2.5em;
+        }
+
+        .about{
+            font-size: 2.5em;
+        }
+
+        .saludo{
+            font-size: 1.5em;
+        }
+
+        .texto-saludo{
+            font-size: .8em;
+            padding: 20px;
+            margin:0;
+        }
+
+        .about-container{
+            width: 100%;
+            min-height: 50%;
+            justify-content: center;
+        }
+
+        .imagen-skills{
+        width: 4em;
+        padding-right: 20px;
+    
+        }
+    
+        .imagen-skills-ps{
+            width: 5em;
+            padding-right: 20px;
+        }
+        .imagen-skills-ai{
+            width: 4.25em;
+            padding-right: 20px;
+        }
+
+}
+
+@media screen and (max-width:400px){
+    
+    .body{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        width: 100%;
+        background-color:#393838 ;
+    }
+    .nombre{
+        padding: 0;
+        transform: translate(10%,30%);
+    }
+
+    .h1{
+        padding: 0;
+        font-size: 1.3em;
+    }
+    .h3{
+        font-size: 1em;
+    }
+    .toggle-button{
+        top: .75rem;
+        right: 2rem;
+        display: flex;
+        z-index: 10;
+    }
+
+    .row{
+        padding-top: 100px;
+    }
+    .home{
+        min-height: 100vh;
+    }
+    .imagen{
+        width: 500%;
+    }
+    .imagen-conjunto{
+       
+        transform: translate(200%,-90%);
+        padding-top: 0px;
+    }
+
+    .input{
+        font-size: .5rem;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        height: 200%;
+        width: 100%;
+
+    }
+    .mensaje{
+        margin-top: 10px;
+        font-size: .5rem;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
